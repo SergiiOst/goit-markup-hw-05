@@ -529,9 +529,11 @@ img {
   letter-spacing: 0.48px;
 }
 .sub-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 8px 24px;
   border-radius: 4px;
   background: #4d5ae5;
