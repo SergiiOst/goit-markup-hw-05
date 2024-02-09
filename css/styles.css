@@ -533,9 +533,6 @@ img {
   height: 40px;
   display: inline-flex;
   padding: 8px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: #4d5ae5;
   border: none;
@@ -555,6 +552,8 @@ img {
 
 .sub-btn-icon {
   fill: #ffffff;
+  margin-left: 16px;
+
 }
 .backdrop {
   position: fixed;
